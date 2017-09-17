@@ -1,4 +1,4 @@
-package Objects.FlowObjects.Activities;
+package it.cnr.isti.labsedc.Objects.FlowObjects.Activities;
 
 public class Task extends Activity {
 

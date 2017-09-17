@@ -1,4 +1,4 @@
-package Objects.FlowObjects.Events;
+package it.cnr.isti.labsedc.Objects.FlowObjects.Events;
 
 public class StartEvent extends Event {
 

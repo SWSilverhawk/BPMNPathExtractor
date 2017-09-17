@@ -1,4 +1,6 @@
-import Objects.Process;
+package it.cnr.isti.labsedc;
+
+import it.cnr.isti.labsedc.Objects.Process;
 import org.w3c.dom.*;
 
 import java.util.ArrayList;
@@ -21,7 +23,6 @@ public class Main {
             System.exit(1);
         }
 
-        // Processes
         processes = BPMNParser.parseProcessesList(document);
         for (Process process : processes) System.out.print(process);
 

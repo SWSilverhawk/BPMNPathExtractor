@@ -1,4 +1,4 @@
-package Objects.FlowObjects.Gateways;
+package it.cnr.isti.labsedc.Objects.FlowObjects.Gateways;
 
 public enum GatewayType {
 

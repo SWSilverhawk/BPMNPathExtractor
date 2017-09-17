@@ -1,7 +1,7 @@
-package Objects;
+package it.cnr.isti.labsedc.Objects;
 
-import Objects.Connections.Connection;
-import Objects.FlowObjects.FlowObject;
+import it.cnr.isti.labsedc.Objects.Connections.Connection;
+import it.cnr.isti.labsedc.Objects.FlowObjects.FlowObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;

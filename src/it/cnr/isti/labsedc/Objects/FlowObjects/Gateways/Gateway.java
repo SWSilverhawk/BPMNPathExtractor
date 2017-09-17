@@ -1,6 +1,6 @@
-package Objects.FlowObjects.Gateways;
+package it.cnr.isti.labsedc.Objects.FlowObjects.Gateways;
 
-import Objects.FlowObjects.FlowObject;
+import it.cnr.isti.labsedc.Objects.FlowObjects.FlowObject;
 
 public class Gateway extends FlowObject {
 

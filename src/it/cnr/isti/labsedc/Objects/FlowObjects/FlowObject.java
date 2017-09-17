@@ -1,16 +1,19 @@
-package Objects.FlowObjects;
+package it.cnr.isti.labsedc.Objects.FlowObjects;
 
-import Objects.BPMNObject;
+import it.cnr.isti.labsedc.Objects.BPMNObject;
 
 import java.util.ArrayList;
 
-public class FlowObject extends BPMNObject {
+public abstract class FlowObject implements BPMNObject {
 
+    protected final String id;
+    protected final String name;
     private ArrayList<String> incomingConnections;
     private ArrayList<String> outgoingConnections;
 
     public FlowObject(String id, String name) {
-        super(id, name);
+        this.id = id;
+        this.name = name;
         incomingConnections = new ArrayList<>();
         outgoingConnections = new ArrayList<>();
     }
@@ -31,5 +34,8 @@ public class FlowObject extends BPMNObject {
 
     public void addIncomingConnection(String connectionID) { incomingConnections.add(connectionID); }
     public void addOutgoingConnection(String connectionID) { outgoingConnections.add(connectionID); }
+
+    public String getId() { return id; }
+    public String getName() { return name; }
 
 }
